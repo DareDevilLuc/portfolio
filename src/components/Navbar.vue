@@ -16,7 +16,7 @@
 <style scoped>
 
 .nav{
-  position: sticky; 
+  position: fixed; 
   top: 0;
   left: 0;
   min-width: 100%;
