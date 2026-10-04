@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import About from './components/About.vue';
 import HeroSection from './components/HeroSection.vue';
 import Navbar from './components/Navbar.vue';
 
@@ -10,6 +11,7 @@ import Navbar from './components/Navbar.vue';
   <div class="app">
     <Navbar />
     <HeroSection/>
+    <About/>
   </div>
 </template>
 
