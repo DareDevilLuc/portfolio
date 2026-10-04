@@ -5,12 +5,13 @@
 
   <div class="hero-section">
     <div class="hero-content">
-      <p>An aspiring Software Engineer</p>
-      <h1> 
-        Hello, I am 
-        <span>Kyle Casirayan</span> 
+      <p class="intro">An aspiring Software Engineer</p>
+      <h1>
+        Hello, I am
+        <span>Kyle</span>
+        <span>Casirayan</span>
       </h1>
-      <p>A 3rd-year Computer Science student at University of the Philippines Cebu</p>
+      <p class="description">3rd Year BSCS Student @ University of the Philippines Cebu | Philippines</p>
     </div>
 
     <div class="hero-image-wrapper">
@@ -21,34 +22,40 @@
 </template>
 
 <style scoped>
-
-.hero-section{
-  min-width: 100%;
+.hero-section {
   min-height: 100vh;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  animation: fadeInUp 1s ease-in-out;
 }
 
-.hero-content{
+.hero-content {
   display: flex;
   flex-direction: column;
 }
 
-.hero-content h1{
-  font-size: 4rem;
+.hero-content h1 {
+  font-size: 6rem;
   color: white;
   margin: 0 0;
 }
 
-.hero-content p{
-  color: white;
-  align-self: flex-start;
-}
-
-.hero-content span{
+.hero-content span {
   display: block;
   color: #C678DD;
+}
+
+.intro {
+  color: white;
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.description {
+  color: #aaa;
+  font-size: 1rem;
+  margin-top: 1rem;
 }
 
 .hero-image-wrapper {
@@ -67,7 +74,7 @@
   object-fit: cover;
 }
 
-  .hero-image-wrapper::before {
+.hero-image-wrapper::before {
   content: "";
   position: absolute;
   inset: -8px;
@@ -88,6 +95,17 @@
 
   to {
     transform: rotate(360deg);
+  }
+}
+
+@keyframes fadeInUp{
+  from{
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to{
+    opacity: 1;
+    transform: translateY(0px);
   }
 }
 
