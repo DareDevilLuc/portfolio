@@ -24,7 +24,7 @@
   align-items: center;
   justify-content: center;
   padding: 20px 50px;
-  background-color: #081e2c;
+  background-color: #333743;
   box-sizing: border-box;
 }
 
