@@ -10,7 +10,25 @@
         <p>
           I'm a Computer Science student passionate about software development
           and building useful applications. I enjoy learning new technologies
-          and turning ideas into working projects.
+          and turning ideas into working projects. I enjoy solving problems and
+          applying it into my projects. I am passionate about programming and Computer
+          Science as a whole.
+        </p>
+
+        <p>
+          I'm a Computer Science student passionate about software development
+          and building useful applications. I enjoy learning new technologies
+          and turning ideas into working projects. I enjoy solving problems and
+          applying it into my projects. I am passionate about programming and Computer
+          Science as a whole.
+        </p>
+
+        <p>
+          I'm a Computer Science student passionate about software development
+          and building useful applications. I enjoy learning new technologies
+          and turning ideas into working projects. I enjoy solving problems and
+          applying it into my projects. I am passionate about programming and Computer
+          Science as a whole.
         </p>
       </div>
 
@@ -40,9 +58,11 @@
 
 .about-paragraph {
   display: flex;
+  flex-direction: column;
   align-items: flex-start;
-  font-size: 3rem;
+  font-size: 1.5rem;
   color: white;
+  gap: 3rem;
 }
 
 .about-paragraph p{
