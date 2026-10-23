@@ -2,7 +2,7 @@
 import About from './components/About.vue';
 import HeroSection from './components/HeroSection.vue';
 import Navbar from './components/Navbar.vue';
-
+import Projects from './components/Projects.vue'
 
 
 </script>
@@ -12,6 +12,7 @@ import Navbar from './components/Navbar.vue';
     <Navbar />
     <HeroSection/>
     <About/>
+    <Projects/>
   </div>
 </template>
 

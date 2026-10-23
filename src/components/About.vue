@@ -14,22 +14,6 @@
           applying it into my projects. I am passionate about programming and Computer
           Science as a whole.
         </p>
-
-        <p>
-          I'm a Computer Science student passionate about software development
-          and building useful applications. I enjoy learning new technologies
-          and turning ideas into working projects. I enjoy solving problems and
-          applying it into my projects. I am passionate about programming and Computer
-          Science as a whole.
-        </p>
-
-        <p>
-          I'm a Computer Science student passionate about software development
-          and building useful applications. I enjoy learning new technologies
-          and turning ideas into working projects. I enjoy solving problems and
-          applying it into my projects. I am passionate about programming and Computer
-          Science as a whole.
-        </p>
       </div>
 
     </div>
@@ -43,8 +27,8 @@
 }
 
 .about-content {
-  display: grid;
-  grid-template-columns: 30% 70%;
+  display: flex;
+  flex-direction: column;
   gap: 3rem;
 }
 
@@ -53,7 +37,8 @@
   color: #C678DD;
   font-size: 5rem;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
+  justify-content: center;
 }
 
 .about-paragraph {
