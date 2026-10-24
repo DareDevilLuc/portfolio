@@ -9,16 +9,16 @@ export interface Project {
 export const projects: Project[] = [
   {
     id: 1,
-    title: 'Bilat',
-    description: 'Bahog Bilat',
+    title: 'FindingDormy',
+    description: 'Helps students and workers to find living spaces',
     tags: ['yeah', 'bruh'],
-    image: ''
+    image: 'public/images/FindingDormy.png'
   },
   {
     id: 2,
-    title: 'Fuck',
-    description: 'Oh yeah',
+    title: 'HuddleUp',
+    description: 'A room making platform that helps with managing tasks',
     tags: ['yeah', 'bruh'],
-    image: ''
+    image: 'public/images/HuddleUp.png'
   },
 ]

@@ -9,6 +9,7 @@ defineProps<{
 
 <template>
   <article class="projects-card">
+    <img :src="project.image" class="project-image">
     <div class="project-body">
       <h3 class="project-title">{{project.title}}</h3>
       <p class="project-description">{{project.description}}</p>
@@ -27,5 +28,12 @@ defineProps<{
 
 .project-body {
   color: white;
+}
+
+.project-image{
+  width: 100%;
+  max-height: 13rem;
+  border-radius: 16px;
+  display: block;
 }
 </style>
