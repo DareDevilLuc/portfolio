@@ -3,6 +3,7 @@ export interface Project {
   title: string;
   description: string;
   tags: string[];
+  image: string;
 }
 
 export const projects: Project[] = [
@@ -10,12 +11,14 @@ export const projects: Project[] = [
     id: 1,
     title: 'Bilat',
     description: 'Bahog Bilat',
-    tags: ['yeah', 'bruh']
+    tags: ['yeah', 'bruh'],
+    image: ''
   },
   {
     id: 2,
     title: 'Fuck',
     description: 'Oh yeah',
-    tags: ['yeah', 'bruh']
+    tags: ['yeah', 'bruh'],
+    image: ''
   },
 ]
