@@ -52,5 +52,6 @@
 
 .about-paragraph p{
   margin: 0 0;
+  text-align: center;
 }
 </style>

@@ -2,7 +2,8 @@
 import About from './components/About.vue';
 import HeroSection from './components/HeroSection.vue';
 import Navbar from './components/Navbar.vue';
-import Projects from './components/Projects.vue'
+import Projects from './components/Projects.vue';
+import Contact from './components/Contact.vue';
 
 
 </script>
@@ -13,6 +14,7 @@ import Projects from './components/Projects.vue'
     <HeroSection/>
     <About/>
     <Projects/>
+    <Contact/>
   </div>
 </template>
 
