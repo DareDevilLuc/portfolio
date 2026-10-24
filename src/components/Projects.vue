@@ -1,5 +1,8 @@
 <script setup>
 import ProjectCard from './ProjectCard.vue'
+import { projects } from '@/composables/projects';
+
+
 </script>
 
 <template>
@@ -10,8 +13,10 @@ import ProjectCard from './ProjectCard.vue'
       </div>
 
       <div class="projects-grid">
-        <ProjectCard/>
-        <ProjectCard/>
+        <ProjectCard v-for="project in projects" 
+        :key="project.title" 
+        :project="project"/>
+
       </div>
     </div>
   </section>
